@@ -1,0 +1,37 @@
+{
+    "extends": "@antfu",
+    "rules": {
+      "curly": [
+        "error",
+        "all"
+      ],
+      "vue/component-tags-order": [
+        "error",
+        {
+          "order": [
+            "template",
+            "script",
+            "style"
+          ]
+        }
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "no-console": [
+        "warn",
+        {
+          "allow": [
+            "warn",
+            "error"
+          ]
+        }
+      ],
+      "no-undef": "off"
+    }
+  }
+  
